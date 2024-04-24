@@ -22,4 +22,4 @@ if __name__=="__main__":
         a, b = list(map(int, input().split()))
         print(primes(a, b))
     except ValueError:
-        print("a nad b must be an integer numbers!")
+        print("a and b must be an integer numbers!")
