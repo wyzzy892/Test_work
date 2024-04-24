@@ -12,7 +12,7 @@ def primes(a:int, b:int):
                 nums[k] = 0
                 k += idx
 
-    # отфильтровываем 0 и все числа меньше правой границы
+    # отфильтровываем 0 и все числа меньше левой границы
     primes = list(filter(lambda x: x >= a, nums))
     return list(filter(lambda x: x!=0, primes))
 
